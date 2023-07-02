@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/ojk6led.css">
+</head>
+
+<body>
+    <div class="div_frame54">
+        <input id="old_pw_fr54" placeholder="Old password">
+        <input id="new_pw_fr54" placeholder="New password">
+        <input id="cf_pw_fr54" placeholder="Confirm new password">
+
+        <a id="change_pw_fr54" href=#></a>
+
+        <p id="result_message_fr54"></p>
+
+        <img class="img" src="frame54.jpg">
+    </div>
+</body>
+
+<script>
+    const oldPasswordInput = document.getElementById("old_pw_fr54");
+    const passwordInput = document.getElementById("new_pw_fr54");
+    const passwordCfInput = document.getElementById("cf_pw_fr54");
+    const submitButton = document.getElementById("change_pw_fr54");
+    const resultMessage = document.getElementById("result_message_fr54");
+
+    submitButton.addEventListener("click", function () {
+        const oldPassword = oldPasswordInput.value;
+        const password = passwordInput.value;
+        const passwordCf = passwordCfInput.value;
+
+        if (!password || !passwordCf || !oldPassword) {
+            resultMessage.textContent = "Please enter password!";
+            result_message_fr54.style.display = 'block';
+            setTimeout(function () {
+                result_message_fr54.style.display = 'none';
+            }, 3000);
+        } else if (oldPassword !== "123123") {
+            resultMessage.textContent = "You entered the wrong old password!";
+            result_message_fr54.style.display = 'block';
+            setTimeout(function () {
+                result_message_fr54.style.display = 'none';
+            }, 3000);
+        } else if ((password === passwordCf) && (password === oldPassword)) {
+            resultMessage.textContent = "The new password is the same as the old password!";
+            result_message_fr54.style.display = 'block';
+            setTimeout(function () {
+                result_message_fr54.style.display = 'none';
+            }, 3000);
+        } else if (password === passwordCf) {
+            resultMessage.textContent = "Change password successfully!";
+            result_message_fr54.style.color = 'white';
+            result_message_fr54.style.display = 'block';
+            setTimeout(function () {
+                result_message_fr54.style.display = 'none';
+                window.location.href = "frame13.html"
+            }, 2000);
+        } else {
+            resultMessage.textContent = "Please check the information again!";
+            result_message_fr54.style.display = 'block';
+            setTimeout(function () {
+                result_message_fr54.style.display = 'none';
+            }, 3000);
+        }
+
+        // Xóa giá trị trong trường nhập password
+        oldPasswordInput.value = "";
+        passwordInput.value = "";
+        passwordCfInput.value = "";
+    });
+</script>
+
+
+</html>

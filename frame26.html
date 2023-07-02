@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div_frame26">
+        <input id = "input_pw_fr26" placeholder="Password">
+        <input id = "input_cfpw_fr26" placeholder="Confirm password">
+        <a id="reset_pw_fr26" href=#></a>
+        <p id="result_message_fr26"></p>
+        <img class ="img" src="frame26.jpg">
+    </div>
+</body>
+
+<script>
+    const passwordInput = document.getElementById("input_pw_fr26");
+    const passwordCfInput = document.getElementById("input_cfpw_fr26");
+    const submitButton = document.getElementById("reset_pw_fr26");
+    const resultMessage = document.getElementById("result_message_fr26");
+
+    submitButton.addEventListener("click", function () {
+        const password = passwordInput.value;
+        const passwordCf = passwordCfInput.value;
+        if (!password || !passwordCf) {
+            resultMessage.textContent = "Please enter full password!";
+            result_message_fr26.style.display = 'block';
+            setTimeout(function () {
+                result_message_fr26.style.display = 'none';
+            }, 3000);
+        } else if (password === passwordCf) {
+            resultMessage.textContent = "Change password successfully!";
+            result_message_fr26.style.color = 'white';
+            result_message_fr26.style.display = 'block';
+            setTimeout(function () {
+                result_message_fr26.style.display = 'none';
+                window.location.href = "frame2.html"
+            }, 2000);
+        } else {
+            resultMessage.textContent = "Please check your password again!";
+            result_message_fr26.style.display = 'block';
+            setTimeout(function () {
+                result_message_fr26.style.display = 'none';
+            }, 3000);
+        }
+
+        // Xóa giá trị trong trường nhập password
+        passwordInput.value = "";
+        passwordCfInput.value = "";
+
+
+    });
+</script>
+
+
+</html>

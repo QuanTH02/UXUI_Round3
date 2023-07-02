@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="div_frame12">
+        <a id="signup_withgg_fr12" href=#></a>
+        <a id="signup_fr12" href=#></a>
+        <input id="input_username_fr12" placeholder="Username">
+        <input id="input_em_fr12" placeholder="Email">
+        <input id="input_pw_fr12" placeholder="Password">
+        <input id="input_cfpw_fr12" placeholder="Confirm password">
+        <p id="result_message_fr12"></p>
+        <img class="img" src="frame12.jpg">
+    </div>
+</body>
+
+<script>
+    const passwordInput = document.getElementById("input_pw_fr12");
+    const passwordCfInput = document.getElementById("input_cfpw_fr12");
+    const submitButton = document.getElementById("signup_fr12");
+    const resultMessage = document.getElementById("result_message_fr12");
+
+    submitButton.addEventListener("click", function () {
+        const password = passwordInput.value;
+        const passwordCf = passwordCfInput.value;
+        if (!password || !passwordCf) {
+            resultMessage.textContent = "Please enter full information!";
+            result_message_fr12.style.display = 'block';
+            setTimeout(function () {
+                result_message_fr12.style.display = 'none';
+            }, 3000);
+        } else if (password === passwordCf) {
+            resultMessage.textContent = "Successful account registration!";
+            result_message_fr12.style.color = 'white';
+            result_message_fr12.style.display = 'block';
+            setTimeout(function () {
+                result_message_fr12.style.display = 'none';
+                window.location.href = "frame2.html"
+            }, 2000);
+        } else {
+            resultMessage.textContent = "Please check the information again!";
+            result_message_fr12.style.display = 'block';
+            setTimeout(function () {
+                result_message_fr12.style.display = 'none';
+            }, 3000);
+        }
+
+        // Xóa giá trị trong trường nhập password
+        passwordInput.value = "";
+        passwordCfInput.value = "";
+
+
+    });
+</script>
+
+</html>

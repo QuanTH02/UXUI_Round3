@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "div_dn"> 
+        <a id="withgg" href="frame22.html"></a>
+        <input id = "input_em_dn" placeholder="Email">
+        <input type="password" id = "input_pw_dn" placeholder="Password">
+        <a id="signin_dn" href=#></a>
+        <a id="forget_pw_dn" href="frame25.html"></a>
+        <p id="result_message_fr2"></p>
+        <a id="signup_dn" href="frame12.html"></a>
+    </div>
+    
+    <img class ="img" src="DangNhap.jpg">
+</body>
+
+<script>
+    const emailInput = document.getElementById("input_em_dn");
+    const passwordInput = document.getElementById("input_pw_dn");
+    const submitButton = document.getElementById("signin_dn");
+    const resultMessage = document.getElementById("result_message_fr2");
+
+
+    submitButton.addEventListener("click", function() {
+        const email = emailInput.value;
+        const password = passwordInput.value;
+        if (!password || !email) {
+            resultMessage.textContent = "Please enter full information!";
+            result_message_fr2.style.display = 'block'; 
+            setTimeout(function() {
+                result_message_fr2.style.display = 'none';
+            }, 3000);
+        } else if (password === '123123' && email === 'user@gmail.com') { 
+            resultMessage.textContent = "Logged in successfully!";
+            result_message_fr2.style.color = 'white';
+            result_message_fr2.style.display = 'block'; 
+            setTimeout(function() {
+                result_message_fr2.style.display = 'none';
+                window.location.href = "frame13.html"
+            }, 500); 
+        }
+        else {
+            resultMessage.textContent = "Please check the information again!";
+            result_message_fr2.style.display = 'block';
+            setTimeout(function() {
+                result_message_fr2.style.display = 'none';
+            }, 3000);
+        }
+
+        // Xóa giá trị trong trường nhập password
+        emailInput.value = "";
+        passwordInput.value = "";
+        
+        
+    });
+</script>
+
+
+
+</html>

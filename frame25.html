@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="div_frame25">
+        <input id="input_em_fr25" placeholder="Email">
+        <a id="forgot_pw_fr22" href=#></a>
+        <p id="result_message_fr25"></p>
+        <img class="img" src="frame25.jpg">
+    </div>
+</body>
+
+<script>
+    const emailInput = document.getElementById("input_em_fr25");
+    const submitButton = document.getElementById("forgot_pw_fr22");
+    const resultMessage = document.getElementById("result_message_fr25");
+
+    submitButton.addEventListener("click", function () {
+        const email = emailInput.value;
+
+        if (!email) {
+            resultMessage.textContent = "Please enter your email!";
+            result_message_fr25.style.display = 'block';
+            setTimeout(function () {
+                result_message_fr25.style.display = 'none';
+            }, 3000);
+        } else if (email === 'user@gmail.com') {
+            window.location.href = "frame26.html"
+        } else {
+            resultMessage.textContent = "The email you entered does not exist!!";
+            result_message_fr25.style.display = 'block';
+            setTimeout(function () {
+                result_message_fr25.style.display = 'none';
+            }, 3000);
+        }
+    });
+</script>
+
+</html>

@@ -1,0 +1,6 @@
+home: 13
+calendar: 14
+team: 16
+report: 15
+
+thongtin: 19

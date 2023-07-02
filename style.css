@@ -1,0 +1,1180 @@
+/* Đăng nhập Frame 2*/
+
+body {
+    height: 700px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+}
+
+.menu {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#withgg {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 50px;
+    width: 232px;
+    height: 53px;
+    margin-left: 636px;
+    margin-top: 192px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#signin_dn {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 50px;
+    width: 176px;
+    height: 54px;
+    margin-left: 665px;
+    margin-top: 527px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#withgg:hover, #signin_dn:hover, #signup_withgg_fr12:hover, #signup_fr12:hover, #choose_email_quan_fr22:hover, #choose_email_nam_fr22:hover, #choose_email_another_fr22:hover, #forgot_pw_fr22:hover, #reset_pw_fr26:hover, #edit_fr19:hover, #cancel_fr19:hover, #change_image_fr19:hover, #view_progess_fr15:hover, #group_fr16:hover, #time_fr16:hover, #back_fr41:hover, 
+#start_fr41:hover, #end_fr41:hover, #type_fr41:hover, #repeat_fr41:hover, #view_insignt_fr20:hover, #view_statistics_fr20:hover,
+#page_fr20:hover, #page_fr16:hover, #edit_setting:hover, #change_pw:hover, #log_out:hover, #log_out_image_fr58:hover, #cancel_image_fr58:hover, #change_pw_fr54:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#forget_pw_dn {
+    position: absolute;
+    width:128px;
+    height: 20px;
+    margin-left: 778px;
+    margin-top: 484px;
+    border-radius: 0;
+    border-bottom: solid 1px rgba(0, 0, 0, 0);
+}
+
+#forget_pw_dn:hover {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#signup_dn {
+    position: absolute;
+    width:80px;
+    height: 31px;
+    margin-left: 816px;
+    margin-top: 652px;
+    border-radius: 0;
+    border: solid 1px rgba(0, 0, 0, 0);
+}
+
+#input_em_dn {
+    position: absolute;
+    width: 307px;
+    height: 54px;
+    background-color: #D9D9D9;
+    border: 1px solid #5C5C5C;
+    border-radius: 10px;
+    margin-left: 586px;
+    margin-top: 340px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#input_pw_dn {
+    position: absolute;
+    width: 307px;
+    height: 54px;
+    background-color: #D9D9D9;
+    border: 1px solid #5C5C5C;
+    border-radius: 10px;
+    margin-left: 586px;
+    margin-top: 420px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* Menu Frame 11*/
+
+#getstarted_menu {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 20px;
+    width: 169px;
+    height: 64px;
+    margin-left: 150px;
+    margin-top: 561px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#getstarted_menu:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Sign up Frame 12*/
+
+#signup_withgg_fr12 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 50px;
+    width: 232px;
+    height: 53px;
+    margin-left: 636px;
+    margin-top: 167px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#input_username_fr12 {
+    position: absolute;
+    width: 269px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 605px;
+    margin-top: 278px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#input_em_fr12 {
+    position: absolute;
+    width: 269px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 605px;
+    margin-top: 346px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#input_pw_fr12 {
+    position: absolute;
+    width: 269px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 605px;
+    margin-top: 413px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#input_cfpw_fr12 {
+    position: absolute;
+    width: 269px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 605px;
+    margin-top: 481px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#signup_fr12 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 50px;
+    width: 175px;
+    height: 53px;
+    margin-left: 664px;
+    margin-top: 573px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#result_message_fr12 {
+    position: absolute;
+    width: 269px;
+    height: 22px;
+    border-radius: 13px;
+    margin-left: 596px;
+    margin-top: 540px;
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: 16px;
+    color: red;
+    display: none;
+}
+
+/* Sign in with Google Frame 22*/
+
+#choose_email_quan_fr22 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 5px;
+    width: 329px;
+    height: 52px;
+    margin-left: 584px;
+    margin-top: 305px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#choose_email_nam_fr22 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 5px;
+    width: 329px;
+    height: 52px;
+    margin-left: 584px;
+    margin-top: 365px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#choose_email_another_fr22 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 5px;
+    width: 329px;
+    height: 52px;
+    margin-left: 584px;
+    margin-top: 425px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#result_message_fr2 {
+    position: absolute;
+    width: 269px;
+    height: 20px;
+    border-radius: 13px;
+    margin-left: 578px;
+    margin-top: 502px;
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: 15px;
+    color: red;
+    display: none;
+}
+
+/* Forgot password Frame 25*/
+#input_em_fr25 {
+    position: absolute;
+    width: 305px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 587px;
+    margin-top: 305.5px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#forgot_pw_fr22 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 50px;
+    width: 244px;
+    height: 57px;
+    margin-left: 630px;
+    margin-top: 421px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#result_message_fr25 {
+    position: absolute;
+    width: 269px;
+    height: 20px;
+    border-radius: 13px;
+    margin-left: 578px;
+    margin-top: 370px;
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: 15px;
+    color: red;
+    display: none;
+}
+
+/* Forgot password Frame 26*/
+#input_pw_fr26 {
+    position: absolute;
+    width: 305px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 587px;
+    margin-top: 305.1px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#input_cfpw_fr26 {
+    position: absolute;
+    width: 305px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 587px;
+    margin-top: 391.6px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#reset_pw_fr26 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 50px;
+    width: 244px;
+    height: 55px;
+    margin-left: 630px;
+    margin-top: 491px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#result_message_fr26 {
+    position: absolute;
+    width: 269px;
+    height: 20px;
+    border-radius: 13px;
+    margin-left: 578px;
+    margin-top: 450px;
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: 15px;
+    color: red;
+    display: none;
+}
+
+/* Thông tin cá nhân Frame 19*/
+
+#home_fr19 {
+    position: absolute;
+    text-decoration: none;
+    margin-left: 485px;
+    margin-top: 49.2px;
+    font-size: 21px;
+    color: rgba(0, 0, 0, 0);
+    font-family: "poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+#calendar_fr19 {
+    position: absolute;
+    text-decoration: none;
+    margin-left: 615px;
+    margin-top: 49.2px;
+    font-size: 21px;
+    font-family: "poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0);
+}
+
+#team_fr19 {
+    position: absolute;
+    text-decoration: none;
+    margin-left: 777px;
+    margin-top: 48.8px;
+    font-size: 21px;
+    font-family: "poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0);
+}
+
+#report_fr19 {
+    position: absolute;
+    text-decoration: none;
+    margin-left: 907px;
+    margin-top: 51px;
+    font-size: 21px;
+    font-family: "poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0);
+}
+
+#home_fr19:hover, #calendar_fr19:hover, #team_fr19:hover, #report_fr19:hover {
+    color: black;
+}
+
+#taskx_fr19 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 50px;
+    width: 158px;
+    height: 60px;
+    margin-left: 155px;
+    margin-top: 26px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#thongtincanhan_fr19 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-left: 1100px;
+    margin-top: 45px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#setting_fr19 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-left: 1182px;
+    margin-top: 45px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#thongbao_fr19 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    margin-left: 1264px;
+    margin-top: 45px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#edit_fr19 {
+    position: absolute;
+    width: 124px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    margin-left: 1005px;
+    margin-top: 614px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* Edit profile Frame 28 */
+
+#cancel_fr19 {
+    position: absolute;
+    width: 124px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    margin-left: 360px;
+    margin-top: 614px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#change_image_fr19 {
+    position: absolute;
+    width: 242px;
+    height: 293px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 0px;
+    margin-left: 351px;
+    margin-top: 190px;
+    padding-left: 20px;
+}
+
+#input_fn_fr28 {
+    position: absolute;
+    width: 118px;
+    height: 38px;
+    background-color: white;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 721px;
+    margin-top: 295px;
+    padding-left: 15px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#input_ln_fr28 {
+    position: absolute;
+    width: 118px;
+    height: 38px;
+    background-color: white;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 1006px;
+    margin-top: 295px;
+    padding-left: 15px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#input_age_fr28 {
+    position: absolute;
+    width: 118px;
+    height: 38px;
+    background-color: white;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 721px;
+    margin-top: 393px;
+    padding-left: 15px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#input_phone_fr28 {
+    position: absolute;
+    width: 118px;
+    height: 38px;
+    background-color: white;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 1006px;
+    margin-top: 393px;
+    padding-left: 15px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#input_em_fr28 {
+    position: absolute;
+    width: 236px;
+    height: 38px;
+    background-color: white;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 721px;
+    margin-top: 491px;
+    padding-left: 15px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* Home frame 13 */
+
+.scrollbar {
+    overflow-y: auto;
+    position: absolute;
+    width: 555px;
+    height: 295px;
+    margin-left: 748px;
+    margin-top: 310px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0);
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 11px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    border-radius: 8px;
+    background-color: #D9D9D9;
+    
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #5C5C5C;
+}
+
+#addtask_fr13 {
+    position: absolute;
+    border: rgba(0, 0, 0, 0) solid 1px;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    margin-left: 509.5px;
+    margin-top: 315px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Team Frame 16 */
+
+#search_fr16 {
+    position: absolute;
+    border: rgba(0, 0, 0, 0) solid 1px;
+    border-radius: 50%;
+    width: 70px;
+    height: 68px;
+    margin-left: 885px;
+    margin-top: 107px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+#group_fr16 {
+    position: absolute;
+    width: 115px;
+    height: 53px;
+    margin-left: 175px;
+    margin-top: 205px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+}
+
+#time_fr16 {
+    position: absolute;
+    width: 115px;
+    height: 53px;
+    margin-left: 175px;
+    margin-top: 365px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+}
+
+#page_fr16 {
+    position: absolute;
+    width: 113px;
+    height: 53px;
+    margin-left: 713px;
+    margin-top: 593px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+}
+
+#next_fr16 {
+    position: absolute;
+    width: 27px;
+    height: 53px;
+    margin-left: 888px;
+    margin-top: 593px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#input_search_fr16 {
+    position: absolute;
+    width: 348px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 6px solid black;
+    border-radius: 20px;
+    margin-left: 528px;
+    margin-top: 120px;
+    padding-left: 15px;
+    font-style: italic;
+    font-size: 16px;
+    color: white;
+}
+
+
+#baosearch_fr16 {
+    position: absolute;
+    border: white solid 20px;
+    border-radius: 50%;
+    width: 36px;
+    height: 34px;
+    margin-left: 884px;
+    margin-top: 104px;
+}
+
+#addteam_fr16 {
+    position: absolute;
+    border: rgba(0, 0, 0, 0) solid 1px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin-left: 1244px;
+    margin-top: 234px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#setting_uxui_fr16 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-left: 526px;
+    margin-top: 377px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#setting_oop_fr16 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-left: 837px;
+    margin-top: 377px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#setting_marketing_fr16 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-left: 1145px;
+    margin-top: 377px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#view_uxui_fr16 {
+    position: absolute;
+    width:78px;
+    height: 20px;
+    margin-left: 459px;
+    margin-top: 500px;
+    border-radius: 0;
+    border-bottom: solid 1px rgba(0, 0, 0, 0);
+}
+
+#view_oop_fr16 {
+    position: absolute;
+    width:78px;
+    height: 20px;
+    margin-left: 768px;
+    margin-top: 500px;
+    border-radius: 0;
+    border-bottom: solid 1px rgba(0, 0, 0, 0);
+}
+
+#view_marketing_fr16 {
+    position: absolute;
+    width:78px;
+    height: 20px;
+    margin-left: 1073px;
+    margin-top: 500px;
+    border-radius: 0;
+    border-bottom: solid 1px rgba(0, 0, 0, 0);
+}
+
+#view_uxui_fr16:hover, #view_oop_fr16:hover, #view_marketing_fr16:hover, #view_1_fr20:hover, #view_2_fr20:hover, #view_3_fr20:hover, #view_4_fr20:hover, #view_5_fr20:hover, #view_6_fr20:hover {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Report Frame 15 */
+
+#view_progess_fr15 {
+    position: absolute;
+    width: 184px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    margin-left: 1072px;
+    margin-top: 609px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* Add task Frame 41 */
+
+#back_fr41 {
+    position: absolute;
+    width: 123px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    margin-left: 229px;
+    margin-top: 610px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#star_fr41 {
+    position: absolute;
+    width: 16px;
+    height: 42px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 687px;
+    margin-top: 198px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#input_title_fr41 {
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    background-color: white;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 766px;
+    margin-top: 201px;
+    padding-left: 15px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#input_location_fr41 {
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    background-color: white;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 766px;
+    margin-top: 273px;
+    padding-left: 15px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#input_description_fr41 {
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    background-color: white;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 766px;
+    margin-top: 344px;
+    padding-left: 15px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#start_fr41 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 13px;
+    margin-left: 766px;
+    margin-top: 434px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#end_fr41 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 13px;
+    margin-left: 916px;
+    margin-top: 434px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#type_fr41 {
+    position: absolute;
+    width: 72px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 13px;
+    margin-left: 1095px;
+    margin-top: 434px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#repeat_fr41 {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 13px;
+    margin-left: 766px;
+    margin-top: 534px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#add_task_fr41 {
+    position: absolute;
+    width: 190px;
+    height: 46px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 980px;
+    margin-top: 537px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+/* Rrport page 2 Frame 20 */
+
+#view_1_fr20 {
+    position: absolute;
+    width:78px;
+    height: 20px;
+    margin-left: 414px;
+    margin-top: 273px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0);
+}
+
+#view_2_fr20 {
+    position: absolute;
+    width:78px;
+    height: 20px;
+    margin-left: 794px;
+    margin-top: 273px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0);
+}
+
+#view_3_fr20 {
+    position: absolute;
+    width:78px;
+    height: 20px;
+    margin-left: 1175px;
+    margin-top: 273px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0);
+}
+
+#view_4_fr20 {
+    position: absolute;
+    width:78px;
+    height: 20px;
+    margin-left: 414px;
+    margin-top: 525px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0);
+}
+
+#view_5_fr20 {
+    position: absolute;
+    width:78px;
+    height: 20px;
+    margin-left: 794px;
+    margin-top: 525px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0);
+}
+
+#view_6_fr20 {
+    position: absolute;
+    width:78px;
+    height: 20px;
+    margin-left: 1175px;
+    margin-top: 525px;
+    border-bottom: solid 1px rgba(0, 0, 0, 0);
+}
+
+#view_insignt_fr20 {
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    margin-left: 229px;
+    margin-top: 610px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#view_statistics_fr20 {
+    position: absolute;
+    width: 185px;
+    height: 48px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    margin-left: 1072px;
+    margin-top: 608px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#next_fr20 {
+    position: absolute;
+    width: 27px;
+    height: 53px;
+    margin-left: 869px;
+    margin-top: 601px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#back_fr20 {
+    position: absolute;
+    width: 27px;
+    height: 53px;
+    margin-left: 614px;
+    margin-top: 601px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#page_fr20 {
+    position: absolute;
+    width: 114px;
+    height: 53px;
+    margin-left: 694px;
+    margin-top: 602px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+}
+
+/* Setting Frame 24 */
+
+#hidden_setting {
+    display: none;
+}
+
+.setting_img {
+    position: absolute;
+    width: 263px;
+    height: 210px;
+    margin-left: 930px;
+    margin-top: 78px;
+}
+
+#edit_setting {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 20px;
+    width: 262px;
+    height: 65px;
+    margin-left: 930px;
+    margin-top: 79px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#change_pw {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 20px;
+    width: 262px;
+    height: 69px;
+    margin-left: 930px;
+    margin-top: 145px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#log_out {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 20px;
+    width: 262px;
+    height: 69px;
+    margin-left: 930px;
+    margin-top: 214px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Log out frame 58 */
+
+#hidden_setting_logout {
+    display: none;
+}
+
+.setting_img_logout {
+    position: absolute;
+    width: 230px;
+    height: 170px;
+    margin-left: 750px;
+    margin-top: 250px;
+}
+
+#log_out_image_fr58 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 20px;
+    width: 140px;
+    height: 32px;
+    margin-left: 795px;
+    margin-top: 324px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#cancel_image_fr58 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 20px;
+    width: 140px;
+    height: 32px;
+    margin-left: 795px;
+    margin-top: 368px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* Change password Frame 54 */
+
+#old_pw_fr54 {
+    position: absolute;
+    width: 305px;
+    height: 51px;
+    background-color: #D9D9D9;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 579px;
+    margin-top: 248px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#new_pw_fr54{
+    position: absolute;
+    width: 305px;
+    height: 51px;
+    background-color: #D9D9D9;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 579px;
+    margin-top: 323px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#cf_pw_fr54{
+    position: absolute;
+    width: 305px;
+    height: 51px;
+    background-color: #D9D9D9;
+    border: 1px solid #5C5C5C;
+    border-radius: 13px;
+    margin-left: 579px;
+    margin-top: 398px;
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+#change_pw_fr54 {
+    position: absolute;
+    border: rgba(0, 0, 0, 1) solid 0px;
+    border-radius: 30px;
+    width: 245px;
+    height: 52px;
+    margin-left: 618px;
+    margin-top: 508px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#result_message_fr54 {
+    position: absolute;
+    width: 269px;
+    height: 22px;
+    border-radius: 13px;
+    margin-left: 572px;
+    margin-top: 462px;
+    padding-left: 10px;
+    padding-top: 2px;
+    font-size: 16px;
+    color: red;
+    display: none;
+}
+
+#test {
+    display: none;
+}
+
+.img_test {
+    position: absolute;
+    width: 517px;
+    height: 294px;
+    margin-left: 760px;
+    margin-top: 318px;
+}

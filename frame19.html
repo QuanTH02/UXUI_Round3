@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/ojk6led.css">
+</head>
+<body>
+    <div class="div_frame19">
+        <a id="home_fr19" href="frame13.html">Home</a>
+        <a id="calendar_fr19" href="frame14.html">Calendar</a>
+        <a id="team_fr19" href="frame16.html">Team</a>
+        <a id="report_fr19" href="frame15.html">Report</a>
+        <a id="taskx_fr19" href="frame13.html"></a>
+        <a id="thongtincanhan_fr19" href="frame19.html"></a>
+        <a id="setting_fr19" href=#></a>
+        <a id="thongbao_fr19" href=#></a>
+        <a id = "edit_fr19" href="frame28.html"></a>
+
+        <div id="hidden_setting">
+            <img class="setting_img" src="frame24.jpg">
+            <a id="edit_setting" href="frame28.html"></a>
+            <a id="change_pw" href="frame54.html"></a>
+            <a id="log_out" href=#></a>
+            <div id="hidden_setting_logout">
+                <img class="setting_img_logout" src="frame58.jpg">
+                <a id="log_out_image_fr58" href="frame11.html"></a>
+                <a id="cancel_image_fr58" href=#></a>
+            </div>
+        </div>
+
+        <img class ="img" src="frame19.jpg">
+    </div>
+</body>
+
+<script>
+    const submitButtonSetting = document.getElementById("setting_fr19");
+    const submitButtonLogout = document.getElementById("log_out");
+    const submitButtonCancel = document.getElementById("cancel_image_fr58");
+
+    submitButtonSetting.addEventListener("click", function () {
+        if (hidden_setting.style.display === "none")
+            hidden_setting.style.display = "block";
+        else {
+            hidden_setting.style.display = "none";
+        }
+    });
+
+    submitButtonLogout.addEventListener("click", function () {
+        if (hidden_setting_logout.style.display === "none")
+            hidden_setting_logout.style.display = "block";
+        else {
+            hidden_setting_logout.style.display = "none";
+        }
+    });
+
+    submitButtonCancel.addEventListener("click", function () {
+        hidden_setting_logout.style.display = "none";
+    });
+
+</script>
+
+</html>
